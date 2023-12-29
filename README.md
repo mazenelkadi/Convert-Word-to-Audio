@@ -1,1 +1,3 @@
 # Convert-Word-to-Audio
+
+This script allows a user to select a Word document (.docx) and converts its text content to an audio file in MP3 format. The text-to-speech engine (pyttsx3) is used for generating the spoken audio. The script extracts text from each paragraph in the document and concatenates it into a single string. After extraction, the user is prompted to select a location to save the audio file. The script then uses the save_text_to_audio function to convert this text into spoken words and save it as an MP3 file. If the user does not select a Word document or cancels the save operation, the script provides appropriate feedback. This can be useful for creating audiobooks from documents or for accessibility purposes.
